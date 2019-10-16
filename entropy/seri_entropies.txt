@@ -1,0 +1,3 @@
+filename	weighted	mean_ent_uncond	actual_ent	MI
+seri_entropy_nonweighted_Rcalc.txt	0	3.10058246076065	2.32806760404261	0.772514856718047
+seri_entropy_weighted_Rcalc.txt	1	2.39470134036328	1.90057684846533	0.494124491897948

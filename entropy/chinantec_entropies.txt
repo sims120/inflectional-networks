@@ -1,0 +1,3 @@
+filename	weighted	mean_ent_uncond	actual_ent	MI
+palantla_chinantec_entropy_nonweighted_Rcalc.txt	0	2.34555451073106	1.32971067456188	1.01584383616919
+palantla_chinantec_entropy_weighted_Rcalc.txt	1	2.29368773010845	1.08114064812823	1.21254708198022

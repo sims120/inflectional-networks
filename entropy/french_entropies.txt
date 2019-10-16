@@ -1,0 +1,3 @@
+filename	weighted	mean_ent_uncond	actual_ent	MI
+french_entropy_nonweighted_Rcalc.txt	0	4.511938726817	0.702232891724518	3.80970583509248
+french_entropy_weighted_Rcalc.txt	1	2.0055805	0.168451585873684	1.83712891412632
