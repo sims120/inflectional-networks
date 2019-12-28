@@ -1,3 +1,0 @@
-filename	weighted	mean_ent_uncond	actual_ent	MI
-kadiweu_entropy_nonweighted_Rcalc.txt	0	2.51904523139971	1.39452433997221	1.12452089142749
-kadiweu_entropy_weighted_Rcalc.txt	1	2.40265021032746	1.17517758045117	1.22747262987628

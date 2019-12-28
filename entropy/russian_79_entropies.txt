@@ -1,2 +1,0 @@
-filename	weighted	mean_ent_uncond	actual_ent	MI
-russian79_entropy_nonweighted_Rcalc.txt	0	2.54562263147637	1.36022188364144	1.18540074783494

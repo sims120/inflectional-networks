@@ -1,3 +1,0 @@
-filename	weighted	mean_ent_uncond	actual_ent	MI
-icelandic_entropy_nonweighted_Rcalc.txt	0	4.68815527489607	0.933712270580786	3.75444300431529
-icelandic_entropy_weighted_Rcalc.txt	1	3.23038685565479	0.657181332572793	2.573205523082

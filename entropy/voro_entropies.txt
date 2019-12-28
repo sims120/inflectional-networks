@@ -1,3 +1,0 @@
-filename	weighted	mean_ent_uncond	actual_ent	MI
-voro_entropy_nonweighted_Rcalc.txt	0	1.05308412584746	0.874814186206244	0.178269939641217
-voro_entropy_weighted_Rcalc.txt	1	0.850653632021607	0.677204871166332	0.173448760855275
