@@ -151,7 +151,7 @@ CITATION
 
 If you use or modify this code, please cite it as:
 
-Sims, Andrea D., with contribution by Jeff Parker. 2019. Inflectional networks: Resources for graph-theoretic analysis of linguistic morphology, v. 1.0.0 [24 December 2019]. DOI:  
+Sims, Andrea D., with contribution by Jeff Parker. 2019. Inflectional networks: Resources for graph-theoretic analysis of linguistic morphology, v. 1.0.0 [24 December 2019]. DOI: 10.5281/zenodo.3594436 
 
 and
 
