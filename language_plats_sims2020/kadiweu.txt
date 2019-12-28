@@ -1,0 +1,62 @@
+class	typeFreq	form_1.sg	form_1.pl	form_2	form_3.sg	form_3.pl
+approach	1	j#stem	j#stema<U+0262>a	a#stemi	n#stem	d#stem
+battle	1	j#stem	j#stema<U+0262>a	a#stemi	y#stem	n#stema<U+0262>a
+be a drunkard	12	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	y#stem	n#stem
+be careful	6	in#stem	in#stema<U+0262>a	an#stemi	d-n#stem	d-n#stem
+be full	1	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	n#stem	n#stem
+be perplexed	1	id#stem	<U+0262>od#stem	ad#stemi	y#stem	ad#stem
+be strong	1	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	y#stem	d-n#stema<U+0262>a
+be there	1	id#stem	id#stema<U+0262>a	ad#stemi	yd#stem	yd#stem
+be wet	1	id#stem	<U+0262>od#stem	ad#stemi	y#stem	n#stema<U+0262>a
+breathe	3	j#stem	j#stema<U+0262>a	a#stemi	d#stem	n#stema<U+0262>a
+buy	6	jn#stem	jn#stema<U+0262>a	an#stemi	d-n#stem	#stema<U+0262>a
+change again	2	j#stem	j#stema<U+0262>a	a#stemi	#stem2	n#stem
+choose	19	in#stem	in#stema<U+0262>a	an#stemi	n#stem	n#stema<U+0262>a
+confess	1	j#stem	j#stema<U+0262>a	a#stemi	y#stem	y#stema<U+0262>a
+cure1	1	j#stem	j#stema<U+0262>a	a#stemi	n#stem	n#stem
+cure2	1	jn#stem	jn#stema<U+0262>a	an#stemi	n#stem	an#stema<U+0262>a
+disrespect	7	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	y#stem	y#stem
+do immoral things	1	id#stem	<U+0262>od#stem	an#stemi	n#stem	#stem
+drink	13	j#stem	j#stema<U+0262>a	a#stemi	w#stem	n#stema<U+0262>a
+estupar	11	j#stem	j#stema<U+0262>a	a#stemi	d#stem	y#stem
+exaggerate	1	j#stem	j#stema<U+0262>a	a#stemi	y#stem2	y#stem2
+get bitten	1	id#stem	<U+0262>od#stem	ad#stemi	y#stem	n#stem
+get dressed	15	id-n#stem	id-n#stema<U+0262>a	ad-n#stemi	d-n#stem	d-n#stem
+get thin	8	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	y#stem	n#stem
+give	6	j#stem	j#stema<U+0262>a	a#stemi	a#stem	a#stem
+give birth	11	in#stem	in#stema<U+0262>a	an#stemi	d-n#stem	n#stema<U+0262>a
+heal	1	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	d#stem	d#stem
+hit1	14	j#stem	j#stema<U+0262>a	a#stemi	d#stem	d#stem
+hit2	6	jn#stem	jn#stema<U+0262>a	an#stemi	y#stem	n#stem
+hunt	1	j#stem	j#stema<U+0262>a	a#stemi	d#stem	#stem2a<U+0262>a
+hurry	8	id#stem	<U+0262>od#stem	<U+0262>ad#stemi	y#stem	y#stema<U+0262>a
+inherit	6	jn#stem	jn#stema<U+0262>a	an#stemi	d-n#stem	n#stema<U+0262>a
+knead	6	j#stem	j#stema<U+0262>a	a#stemi	d#stem	n#stem
+leave with s.o.	1	in#stem	<U+0262>on#stem	<U+0262>an#stemi	n#stem	n#stem
+limp	4	j#stem	j#stema<U+0262>a	a#stemi	w#stem	w#stem
+look for straw	11	jn#stem	jn#stema<U+0262>a	an#stemi	d-n#stem	d-n#stem
+lose something	6	jn#stem	jn#stema<U+0262>a	an#stemi	an#stem	n#stem
+milk	6	j#stem	j#stema<U+0262>a	a#stemi	n#stem	#stema<U+0262>a
+paint	18	in#stem	in#stema<U+0262>a	an#stemi	n#stem	n#stem
+placate	16	j#stem	j#stema<U+0262>a	a#stemi	d#stem	n#stema<U+0262>a
+plant	1	j#stem	j#stema<U+0262>a	an#stemi	y#stem	y#stem
+play cards	1	in#stem	i/jin#stema<U+0262>a	an#stemi	d-n#stem	#stema<U+0262>a
+prostrate o.s.	17	id#stem	id#stema<U+0262>a	ad#stemi	d#stem	d#stem
+refuse	8	jn#stem	jn#stema<U+0262>a	an#stemi	an#stem	n#stema<U+0262>a
+remain for	1	in#stem	<U+0262>on#stem	<U+0262>an#stemi	n#stem	n#stema<U+0262>a
+remember	6	in#stem	<U+0262>od#stem	an#stemi	n#stem	n#stem
+rest	12	in#stem	in#stema<U+0262>a	an#stemi	an#stem	n#stema<U+0262>a
+retract	10	jn#stem	jn#stema<U+0262>a	an#stemi	n#stem	n#stem
+ride	1	in#stem	<U+0262>on#stem	an#stemi	n#stem	n#stem
+run1	1	(j)n#stem	(j)n#stema<U+0262>a	an#stemi	d-n#stem	#stema<U+0262>a
+run2	11	j#stem	j#stema<U+0262>a	a#stemi	#stem	#stem
+sharpen	1	j#stem	j#stema<U+0262>a	an#stemi	d#stem	n#stema<U+0262>a
+strain	9	j#stem	j#stema<U+0262>a	a#stemi	y#stem	y#stem
+support	8	j#stem	j#stema<U+0262>a	a#stemi	a#stem	d#stem
+take a bath	8	jn#stem	jn#stema<U+0262>a	an#stemi	n#stem	n#stema<U+0262>a
+take water	1	j#stem	j#stema<U+0262>a	a#stemi	#stem	#stema<U+0262>a
+talk fast	12	j#stem	j#stema<U+0262>a	a#stemi	y#stem	y#stem
+travel	13	in#stem	in#stema<U+0262>a	an#stemi	d-n#stem	#stema<U+0262>a
+tremble	1	j#stem	j#stema<U+0262>a	a#stemi	d#stem	n#stema<U+0262>a
+urinate	1	in#stem	in#stema<U+0262>a	an#stemi	an#stem	#stema<U+0262>a
+wake up	5	id#stem	<U+0262>od#stem	an#stemi	n#stem	n#stema<U+0262>a
