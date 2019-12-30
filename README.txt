@@ -3,8 +3,8 @@ INFLECTIONAL NETWORKS: RESOURCES FOR GRAPH-THEORETIC ANALYSIS OF LINGUISTIC MORP
 Author: Andrea D. Sims (The Ohio State University, Department of Linguistics, Department of Slavic & East European Languages & Cultures)
 Contributor: Jeff Parker (Brigham Young University, Department of Linguistics & English Language)
 
-Version: 1.0.0
-Version date: 24 December 2019
+Version: 1.0.1
+Version date: 30 December 2019
 
 ####################
 
@@ -135,7 +135,7 @@ graphs/language/: the code outputs 22 total graphs for each input file.
 
 MISCELLANEOUS NOTES
 
-This code is written in R, which means that it can be memory-bound. In general, the scripts run well on a local machine (mine has 16 GB of memory), but run time is primarily a function of the number of nodes and (especially) edges in a network. Large, dense networks can therefore take a long time to run. (Among the original datasets, Seri takes a particularly long time.) The hold up is at two places in the code: generating network graphs, and calculating entropy difference. If it is running slow, moving to a machine with greater memory capacity makes a big difference.
+This code is written in R, which means that it can be CPU-bound. In general, the scripts run well on a local machine, but large, dense networks can take a long time to run. The hold up is at two places in the code: generating network graphs, and calculating entropy difference. Run time is primarily a function of the number of nodes in a network (which affects esp. entropy difference calculations) and edges in a network (which affects esp. how long it takes to generate network graphs). (Among the original datasets, Seri takes a particularly long time to generate network graphs, and Icelandic takes a particularly long time to make entropy difference calculations.) Maybe someday I'll get around to fixing this...
 
 Since entropy difference does not need to be calculated each time a small change is made, the code checks whether "drop class" (e.g. subtract_classes/language/drop1_...) files already exist for the dataset. If yes, calculation of entropy difference is skipped. Note that this will cause problems (only) if the content of a language plat is changed without renaming. In this case, to run new entropy difference calculations, the easiest thing is to simply delete or rename the directory with the previous calculations.
 
@@ -151,7 +151,7 @@ CITATION
 
 If you use or modify this code, please cite it as:
 
-Sims, Andrea D., with contribution by Jeff Parker. 2019. Inflectional networks: Resources for graph-theoretic analysis of linguistic morphology, v. 1.0.0 [24 December 2019]. DOI:  
+Sims, Andrea D., with contribution by Jeff Parker. 2019. Inflectional networks: Resources for graph-theoretic analysis of linguistic morphology, v. 1.0.0 [24 December 2019]. DOI: 10.5281/zenodo.3594436 
 
 and
 

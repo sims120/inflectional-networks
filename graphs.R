@@ -4,8 +4,8 @@
 ## INFLECTIONAL NETWORKS: RESOURCES FOR GRAPH-THEORETIC ANALYSIS OF LINGUISTIC MORPHOLOGY
 ##
 ## ANDREA D. SIMS
-## v. 1.0
-## version date: 24 December 2019
+## v. 1.0.1
+## version date: 30 December 2019
 ##
 ## For how to cite, see the accompanying README.txt
 ##
@@ -616,6 +616,10 @@ plotNetworkBetweenness.fnc = function(language, plat, adjMatrix, networkProperti
 complexityScatters.fnc = function(file, entropies_file, adjMatrix, degree_data){
 	
 	data <- read.delim(file, header=T, sep="\t")
+	
+#Check for duplicate rows and remove any found (combine type frequency counts)
+	data <- checkDuplicates.fnc(data)
+	id <- 1:nrow(data) #Initialize id for classes
 
 # file = is file name for raw file of inputs (language plat) (not dropped class -- used to identify dropped class file). 
 # entropies_file = name for pre-calculated entropy numbers for entire inflectional system -- no dropped classes.
@@ -624,13 +628,8 @@ complexityScatters.fnc = function(file, entropies_file, adjMatrix, degree_data){
 	complexityIncreaseGraph.fnc(file)
 
 #Calculate
-	id <- 1:nrow(data) #Initialize id for classes
 	degree_data <- cbind(id, degree_data)
 	filename = unlist(strsplit(file, ".txt"))
-#	filename = unlist(strsplit(filename, ".*/"))
-#	if(length(filename) > 1){
-#		filename = filename[2]
-#	}
 
 	model_out = complexityComponentsGraph.fnc(file, degree_data)
 #	summary(model_out)	

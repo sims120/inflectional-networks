@@ -4,8 +4,8 @@
 ## INFLECTIONAL NETWORKS: RESOURCES FOR GRAPH-THEORETIC ANALYSIS OF LINGUISTIC MORPHOLOGY
 ##
 ## ANDREA D. SIMS
-## v. 1.0
-## version date: 24 December 2019
+## v. 1.0.1
+## version date: 30 December 2019
 ##
 ## For how to cite, see the accompanying README.txt
 ##

@@ -4,8 +4,8 @@
 ## INFLECTIONAL NETWORKS: RESOURCES FOR GRAPH-THEORETIC ANALYSIS OF LINGUISTIC MORPHOLOGY
 ##
 ## ANDREA D. SIMS
-## v. 1.0
-## version date: 24 December 2019
+## v. 1.0.1
+## version date: 30 December 2019
 ##
 ## For how to cite, see the accompanying README.txt
 ##
@@ -22,6 +22,9 @@ classMatrix.fnc = function(data2){
 	
 #Initialize
 	numRows <- nrow(data2)
+	
+	data2 <- checkLabels.fnc(data2)
+	
 	adjMatrix_classes <- data.frame(matrix(0, ncol=numRows, nrow=numRows))
 	rownames(adjMatrix_classes) = as.character(data2[,1])
 	colnames(adjMatrix_classes) = as.character(data2[,1])
