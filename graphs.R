@@ -7,9 +7,11 @@
 ## v. 1.0.1
 ## version date: 30 December 2019
 ##
+## updated 20 June 2021 to fix problem with rescaling of edge weight that caused weakest edges not to display
+##
 ## For how to cite, see the accompanying README.txt
 ##
-##################################
+#################################
 ##################################
 ##
 ## This script contains most of the graphing calls, although some related to entropy difference are in complexityIncrease.R
@@ -183,7 +185,7 @@ plotNetwork.fnc = function(language, plat, adjMatrix, modules, colorByModule, mo
 			E(plot)$edgeColor <- edgeColors[E(plot)$weight]
 
 #Rescaling to facilitate line width by edge wedge
-			E(plot)$rescale = rescale(E(plot)$weight, to = c(0,1))
+			E(plot)$rescale = rescale(E(plot)$weight, to = c(0.1,1))
 
 			half_cells = round(maxWeight/2)
 			half_plus_one_cells = round(maxWeight/2)+1
